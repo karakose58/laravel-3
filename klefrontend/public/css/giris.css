@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+
+}
+
+.giriscon {
+    background-color: cyan;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Maksimum genişlik sınırı */
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.inputbox {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%; /* Genişliği yüzde olarak ayarla */
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 30px;
+    background-color: #e7e7e7;
+    margin: auto;
+}
+
+.gonder {
+    text-align: center;
+}
+
+.btngonder {
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 1.5rem;
+    }
+
+    .giriscon {
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .btngonder {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .giriscon {
+        width: 90%;
+    }
+}
+
+
+
+

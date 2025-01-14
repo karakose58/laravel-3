@@ -1,0 +1,217 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.table {
+    font-size: 1rem; /* Yazı boyutunu ayarla */
+}
+
+.aciklama {
+    max-height: 3em; /* Maksimum yükseklik 3 satır */
+    overflow: hidden; /* Taşmayı gizle */
+    text-overflow: ellipsis; /* Taşan metin için '...' ekle */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* 3 satırda kesme */
+    white-space: normal; /* Normal boşluk */
+}
+
+.urun_tablo {
+    background-color: cadetblue;
+    padding: 30px;
+    
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+
+.urun_tablo_show {
+    background-color: cadetblue;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: x-large;
+    
+}
+
+.r {
+    margin-top: 10px;
+    border-bottom:  1px black solid;
+    margin: 0;
+    padding: 5px;
+}
+
+.c {
+    min-width: auto;
+    max-width: 150px;
+}
+
+/* Mobil görünüm için ayarlamalar */
+@media (max-width: 768px) {
+    .c {
+        max-width: 100px; 
+    }
+    .aciklama {
+        max-height: 5em; 
+    }
+}
+
+.edit{
+    
+    width: 100px;
+    float: left;
+    height: 30px;
+    
+    
+
+
+    
+}
+@media (max-width: 500px) {
+    
+    .edit{
+        width: 80px;
+        float: right;
+        margin: 5px;
+        margin-top: 10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 10px;
+    }
+}
+
+.eklesil{
+    
+    width: 50%;
+    background-color: aqua;
+
+    
+}
+
+.es{
+ 
+    max-width: 80px;
+    width: auto ;
+    margin: 0;
+}
+
+.edt{
+    font-size: 10px;
+
+    width: 100%;
+    float: left;
+    margin: 0;
+    
+    height: 100%;
+}
+
+.d{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.sss {
+    text-align: start;
+    min-width: 230px;
+    max-width: 230px;
+
+    
+}
+
+.ccc{
+    width:min-content;
+    float: none;
+    margin: auto;
+}
+
+.cc{
+    float: left ;
+    
+    width: 50%;
+    
+}
+
+.asas{
+    
+    width: 100%;
+    
+}
+
+.asaa{
+    min-width: 200px;
+}
+
+.ca{
+    height: 70px;
+}
+
+.btnn{
+    background-color: rgb(27, 28, 33);
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    
+    margin-top:10px;
+}
+
+.btnnn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    
+    margin-top:10px;
+}
+
+.aaa{text-align: center;}
+
+@media (max-width: 450px) {
+    
+    .sss {
+        text-align: center;
+        width: 100%;
+        
+    }
+
+
+    .eklesil{
+        text-align: center;
+        width: 100%;
+   
+    }
+
+    .cc{
+        width: 100%;
+        text-align: center;
+    }
+    .asaa{
+        float: none;
+        margin: auto;
+        max-width: 230px;
+        height: auto;
+    }
+
+
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
